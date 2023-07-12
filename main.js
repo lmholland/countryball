@@ -1,6 +1,5 @@
 class Entity {
     constructor(){
-        this.test="ok"
         this.mapWidth = 13508;
         this.mapHeight = 7698;
         this.squareWidth = 1228;
