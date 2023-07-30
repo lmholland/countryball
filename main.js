@@ -2115,13 +2115,13 @@ class Startscreen extends Ball{
             textY: row + textY,
             citiesStartX: col2 - halfWidth,
             citiesEndX: col2 + halfWidth,
-            citiesColor: "#FFE6C2",
+            citiesColor: "#9CD89C",
             enemiesStartX: col3 - halfWidth,
             enemiesEndX: col3 + halfWidth,
-            enemiesColor: "#FFE6C2",
+            enemiesColor: "#9CD89C",
             directionsStartX: col4 - halfWidth,
             directionsEndX: col4 + halfWidth,
-            directionsColor: "#FFE6C2",
+            directionsColor: "#9CD89C",
         }
     }
 
@@ -2200,7 +2200,7 @@ class Startscreen extends Ball{
             },
 
             background: {
-                color: "#9592AD",
+                color: "#9592AD", // brownish
                 margin: document.body.clientHeight * 0.01,
             },
 
@@ -2220,7 +2220,7 @@ class Startscreen extends Ball{
                 height: document.body.clientHeight * 0.04,
                 textY: document.body.clientHeight * 0.027,
                 startTextY: document.body.clientHeight * 0.031,
-                bgColor: "#AFCAE6",
+                bgColor: "#AFCAE6", //cadetblue-ish
                 headingColor: "#707070",
                 font: `${document.body.clientHeight * 0.02}px retropixels`,
             },
@@ -2627,30 +2627,30 @@ class Startscreen extends Ball{
         let setEverything = {
             buttonColors: {
                 easy: {
-                    cities: this.citiesDiff === "easy" ? buttons.diff.easy.citiesColor = "gold" : "",
-                    enemies: this.enemiesDiff === "easy" ? buttons.diff.easy.enemiesColor = "gold" : "",
-                    directions: this.directionsDiff === "easy" ? buttons.diff.easy.directionsColor = "gold" : "",
+                    cities: this.citiesDiff === "easy" ? buttons.diff.easy.citiesColor = "#7BAD7B" : "",
+                    enemies: this.enemiesDiff === "easy" ? buttons.diff.easy.enemiesColor = "#7BAD7B" : "",
+                    directions: this.directionsDiff === "easy" ? buttons.diff.easy.directionsColor = "#7BAD7B" : "",
     
                 },
     
                 medium: {
-                    cities: this.citiesDiff === "medium" ? buttons.diff.medium.citiesColor = "gold" : "",
-                    enemies: this.enemiesDiff === "medium" ? buttons.diff.medium.enemiesColor = "gold" : "",
-                    directions: this.directionsDiff === "medium" ? buttons.diff.medium.directionsColor = "gold" : "",
+                    cities: this.citiesDiff === "medium" ? buttons.diff.medium.citiesColor = "#7BAD7B" : "",
+                    enemies: this.enemiesDiff === "medium" ? buttons.diff.medium.enemiesColor = "#7BAD7B" : "",
+                    directions: this.directionsDiff === "medium" ? buttons.diff.medium.directionsColor = "#7BAD7B" : "",
     
                 },
     
                 hard: {
-                    cities: this.citiesDiff === "hard" ? buttons.diff.hard.citiesColor = "gold" : "",
-                    enemies: this.enemiesDiff === "hard" ? buttons.diff.hard.enemiesColor = "gold" : "",
-                    directions: this.directionsDiff === "hard" ? buttons.diff.hard.directionsColor = "gold" : "",
+                    cities: this.citiesDiff === "hard" ? buttons.diff.hard.citiesColor = "#7BAD7B" : "",
+                    enemies: this.enemiesDiff === "hard" ? buttons.diff.hard.enemiesColor = "#7BAD7B" : "",
+                    directions: this.directionsDiff === "hard" ? buttons.diff.hard.directionsColor = "#7BAD7B" : "",
     
                 },
     
                 insane: {
-                    cities: this.citiesDiff === "insane" ? buttons.diff.insane.citiesColor = "gold" : "",
-                    enemies: this.enemiesDiff === "insane" ? buttons.diff.insane.enemiesColor = "gold" : "",
-                    directions: this.directionsDiff === "insane" ? buttons.diff.insane.directionsColor = "gold" : "",
+                    cities: this.citiesDiff === "insane" ? buttons.diff.insane.citiesColor = "#7BAD7B" : "",
+                    enemies: this.enemiesDiff === "insane" ? buttons.diff.insane.enemiesColor = "#7BAD7B" : "",
+                    directions: this.directionsDiff === "insane" ? buttons.diff.insane.directionsColor = "#7BAD7B" : "",
                 },
             },
 
